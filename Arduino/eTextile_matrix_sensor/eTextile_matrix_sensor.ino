@@ -116,10 +116,8 @@ void loop() {
             calibration = false;
           }
         } else {
-          value = map(value, minVal[sensorID], 1024, 0, 255);
-          value = constrain(value, 0, 255);
-          myPacket[sensorID] = (byte)value;
-          // myPacket[sensorID] = (byte)log2optim(value); // NOT WOKING
+          value = map((byte)value, minVal[sensorID], 1024, 0, 255);
+          myPacket[sensorID] = value;
         }
       }
       // Set row pin in high-impedance state
