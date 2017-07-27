@@ -1,9 +1,9 @@
 /*
 This software is made for the eTextile matrix sensor.
 This sensor is open hardware but it use some materials that are complicate to buy.
-For exempel the piedzo-resistive fabric use to sens the presure is not accesibel in small cantity.
-Also the multiconductors ribbon (16 lignes) do not exist yet as a market product and have to be make by an industry.
-*/
+For example the piezo-resistive fabric used to sense the pressure is not accessible in small quantity.
+Also the multiconductor ribbon (16 traces) does not exist as a market product and has to be custom made.
+*
 
 #include <cmath>
 #include "ofApp.h"
